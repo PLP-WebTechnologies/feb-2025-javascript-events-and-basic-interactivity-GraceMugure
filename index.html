@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT INTERACTIVE ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Java Event Handling & Interactive</h1>
+    <!--Event handling-->
+    <section id="event-handling">
+        <h2>Event Handling</h2>
+        <button id="clickBtn">Click Me</button>
+
+        <div id="hoverTarget">
+            Hover over this box
+        </div>
+
+        <p>Type something on your keyboard and check the console.</p>
+
+        <button id="secretBtn">Double click or hold me</button>
+    </section>
+
+    <!--Interactive Elements-->
+    <section id="interactive-elements">
+        <h2>Interactive Elements</h2>
+
+        <button id="colorchangeBtn">Change my text & color</button>
+
+        <div id="image-gallery">
+            <img id="galleryImage" src="Images/image1.jpg.jpg" alt="Image 1" width="300">
+            <img id="galleryImage" src="Images/image2.jpg.jpg" alt="Image 2" width="300">
+            <img id="galleryImage" src="Images/image3.jpg.jpg" alt="Image 3" width="300">
+            <br>
+            <button id="nextImageBtn">Next</button>
+        </div>
+
+        <div id="tabs">
+            <button class="tab-button" data-target="tabContent1">Tab 1</button>
+            <button class="tab-button" data-target="tabContent2">Tab 2</button>
+
+            <div id="tabContent1" class="tab-content">
+                <p>This is the content of Tab 1.</p>
+            </div>
+
+            <div id="tabContent2" class="tab-content" style="display: none;">
+                <p>This is the content of Tab 2.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Form Validation-->
+    <section id="form-validation">
+        <h2>Form Validation</h2>
+        <form id="validationForm">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" minlength="8" required />
+          <br />
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <br />
+    
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <script src="script.js"></script>
+    
+</body>
+</html>
